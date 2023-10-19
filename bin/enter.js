@@ -2,6 +2,7 @@
 
 // 命令行配置指令
 const program = require('commander');
+// import program from 'commander'
 
 // 声明版本
 program.version(`custom-cli ${require("../package.json").version}`);
