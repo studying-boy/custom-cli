@@ -5,10 +5,10 @@ const program = require('commander');
 // import program from 'commander'
 
 // 声明版本
-program.version(`custom-cli ${require("../package.json").version}`);
+program.version(`lqs-cli ${require("../package.json").version}`);
 
 // 设置首行提示信息
-program.name('custom-cli').usage(`<command> [option]`);
+program.name('lqs-cli').usage(`<command> [option]`);
 
 // 配置create命令
 program

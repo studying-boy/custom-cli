@@ -1,6 +1,6 @@
-# custom-cli
-custom-cli
+# lqs-cli
+lqs-cli
 
 # How to start
 1. npm install / pnpm install
-2. custom-cli create ${projectName}
+2. lqs-cli create ${projectName}
