@@ -20,6 +20,15 @@ program
 		require('../lib/create')(projectName, cmd);
 	})
 
+// 配置deploy命令
+program
+	.command("deploy")
+	.description("deplpy porject to server")
+	.action(() => {
+		// 处理用户输入create指令附加的参数
+		require('../lib/deploy')();
+	})
+
 // process.argv是nodejs提供的属性，获取用户输入的参数
 // console.log(process.argv);
 program.parse(process.argv);

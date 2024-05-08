@@ -12,7 +12,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "keywords": [],
-  "author": "",
+  "author": "liquansheng",
   "license": "ISC",
   "dependencies": {
     "chalk": "^3.0.0",
@@ -20,7 +20,8 @@
     "download-git-repo": "^3.0.2",
     "fs-extra": "^10.1.0",
     "inquirer": "^8.2.6",
-    "ora": "^5.0.1"
+    "ora": "^5.0.1",
+    "ssh2-sftp-client": "^10.0.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.0",
